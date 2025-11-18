@@ -1,0 +1,20 @@
+{
+  "name": "com.kendirstudios.utilities",
+  "version": "2.11.4",
+  "displayName": "KendirStudios Utilities",
+  "description": "This package contains extensions scripts for Unity's base classes.\r\n\r\nTransform Extensions:\r\n- DestroyChildren();\r\n- ShuffleChildren();\r\n- GetComponentsInChildrenExclusive<T>(bool includeInactive = false);\r\n- GetRectTransfrom();\r\n- TryGetComponentInChildren<T>(out T value, bool includeInactive = false);\r\n- TryGetComponentInParent<T>(out T value, bool includeInactive = false);\r\n- GetScenePath();\r\n\r\nAnimator Extensions:\r\n- GetAnimationClipLength(string animationClipName);\r\n- GetAnimationClip(string animationClipName);\r\n\r\nAnimation RuntimeController:\r\n- GetAnimationClipLength(string animationClipName);\r\n- GetAnimationClip(string animationClipName);\r\n\r\nGameObject Extensions:\r\n- GetComponentsInChildrenExclusive<T>();\r\n- TryGetComponentInChildren<T>(out T value, bool includeInactive = false);\r\n- TryGetComponentInParent<T>(out T value, bool includeInactive = false);\r\n- GetScenePath();\r\n\r\nMonoBehaviour Extensions:\r\n- GetComponentsInChildrenExclusive<T>();\r\n- TryGetComponentInChildren<T>(out T value, bool includeInactive = false);\r\n- TryGetComponentInParent<T>(out T value, bool includeInactive = false);\r\n\r\nList Extensions:\r\n- Swap<T>(int indexA, int indexB);\r\n- Shuffle<T>();\r\n- IsValidIndex<T>(int index);\r\n- GetRandomElement<T>();\r\n- TryAdd<T>(T element);\r\n\r\nCanvasGroup Extensions:\r\n- SetVisibility(bool visible);\r\n\r\nArray Extensions:\r\n- Swap<T>(int indexA, int indexB);\r\n- IsValidIndex<T>(int index);\r\n- GetRandomElement<T>();\r\n\r\nColor Extensions:\r\n- GetHexCode();\r\n\r\nString Extensions:\r\n- Censor();\r\n- RemoveWhitespace();\r\n- IsValidEmail();\r\n\r\nJson Extensions\r\n- DeserializeOrDefault<T>(;\r\n\r\nTools:\r\n- CanvasGroupUtility;\r\n- OnStartUnityEvent;\r\n\r\nEditorTools:\r\n- Create CustomPackage Prefabs Variant.\r\n\r\nEditorWindow:\r\n- Find Missing Scripts.\r\n- Find Scripts GUIDS.\r\n- Scene Geometry Statistics.\r\n- Replace GUID.\r\n- Update Packages.",
+  "unity": "2022.3",
+  "unityRelease": "0b5",
+  "documentationUrl": "",
+  "changelogUrl": "https://gitlab.com/KendirStudios_Projects/custompackage-extensions/-/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [],
+  "author": {
+    "name": "KendirStudios",
+    "email": "unity@example.com",
+    "url": "https://kendirstudios.pt"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  }
+}
